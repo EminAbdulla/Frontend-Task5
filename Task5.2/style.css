@@ -1,0 +1,107 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    background-color: #58737A;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.login_box
+{
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login_box_photo
+{
+    position: absolute;
+    top: 10px;
+    left: 10px   ;
+}
+.login_box_photo img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.login_box_header
+{
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    font-size: 25px;
+}
+.login_box_content
+{
+    position: absolute;
+    top: 120px;
+    left: 15px;
+    color: #8d94ad;
+}
+.login_box_input
+{
+    position: absolute;
+    top: 170px;
+    left: 15px;
+}
+.login_box_input input
+{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #8d94ad;
+    border-radius: 5px;
+}
+::placeholder
+{
+    padding-left: 10px;
+}
+
+.login_box_input_button
+{
+    position: absolute;
+    top: 210px;
+    left: 15px;
+}
+.login_box_input_button button
+{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    &:hover
+    {
+        cursor: pointer;
+    }
+}
+.login_box_exit_button button i
+{
+    font-size: 20px;
+}
+.login_box_exit_button button
+{
+    border: none;
+    background: none;
+    color: gray;
+    &:hover
+    {
+        cursor: pointer;
+    }
+}
+.login_box_exit_button
+{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
